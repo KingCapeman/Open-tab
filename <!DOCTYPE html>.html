@@ -2,19 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Open URL</title>
-    <script>
-        function openURL() {
-            const urlParams = new URLSearchParams(window.location.search);
-            const url = urlParams.get('url');
-            if (url) {
-                window.open(url, '_blank');
-            }
-        }
-        window.onload = openURL;
-    </script>
+    <title>TurboWarp Extension Example</title>
 </head>
 <body>
-    <p>Opening URL...</p>
+    <iframe src="https://turbowarp.org/editor" width="100%" height="600px" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
 </body>
 </html>
