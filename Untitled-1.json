@@ -1,0 +1,18 @@
+{
+  "id": "browserExtension",
+  "name": "Browser Extension",
+  "blocks": [
+    {
+      "opcode": "openBrowserTab",
+      "blockType": "command",
+      "text": "open URL [URL]",
+      "arguments": {
+        "URL": {
+          "type": "string",
+          "defaultValue": "https://example.com"
+        }
+      }
+    }
+  ],
+  "menus": {}
+}
